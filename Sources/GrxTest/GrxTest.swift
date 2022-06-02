@@ -3,5 +3,6 @@ public struct GrxTest {
 
     public init() {
       print("Hello, World!")
+      print("Updated")
     }
 }
