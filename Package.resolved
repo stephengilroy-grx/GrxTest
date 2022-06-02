@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "grxsubtest",
+      "kind" : "localSourceControl",
+      "location" : "/Users/sgilroy/Documents/Development/GrxSubTest",
+      "state" : {
+        "revision" : "62f9912fdd65cb66f89ad40a92958331fc759c24",
+        "version" : "0.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}
