@@ -20,7 +20,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "GrxTest",
-            dependencies: []),
+            dependencies: [.product(name: "GrxSubTest", package: "GrxSubTest")]),
         .testTarget(
             name: "GrxTestTests",
             dependencies: ["GrxTest"]),
