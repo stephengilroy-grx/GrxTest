@@ -2,11 +2,11 @@
   "pins" : [
     {
       "identity" : "grxsubtest",
-      "kind" : "localSourceControl",
-      "location" : "/Users/sgilroy/Documents/Development/GrxSubTest",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stephengilroy-grx/GrxSubTest.git",
       "state" : {
-        "revision" : "62f9912fdd65cb66f89ad40a92958331fc759c24",
-        "version" : "0.0.1"
+        "revision" : "4b617bf27f34f815b50c86691baf7d6a63592d53",
+        "version" : "0.0.5"
       }
     }
   ],
