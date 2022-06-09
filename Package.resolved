@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/stephengilroy-grx/GrxSubTest.git",
       "state" : {
-        "revision" : "4b617bf27f34f815b50c86691baf7d6a63592d53",
-        "version" : "0.0.5"
+        "revision" : "befa9b7a099b0354e6d5340cb421aec5a77923f9",
+        "version" : "0.0.10"
       }
     }
   ],

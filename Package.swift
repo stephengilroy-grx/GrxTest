@@ -21,8 +21,14 @@ let package = Package(
         .target(
             name: "GrxTest",
             dependencies: [.product(name: "GrxSubTest", package: "GrxSubTest")]),
+        .target(
+          name: "GrxTestsA",
+          dependencies: [
+            .product(name: "GrxSubTest", package: "GrxSubTest")
+          ]
+        ),
         .testTarget(
             name: "GrxTestTests",
-            dependencies: ["GrxTest"]),
+            dependencies: ["GrxTest", "GrxTestsA"]),
     ]
 )
