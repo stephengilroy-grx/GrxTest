@@ -10,6 +10,10 @@ let package = Package(
         .library(
             name: "GrxTest",
             targets: ["GrxTest"]),
+        .library(
+          name: "GrxTestsA",
+          targets: ["GrxTestsA"]
+        ),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
