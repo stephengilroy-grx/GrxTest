@@ -42,6 +42,7 @@ let package = Package(
         .product(name: "GrxSubTest", package: "GrxSubTest")
       ]
     ),
+    .target(name: "GrxTestsB"),
     .testTarget(
       name: "GrxTestTests",
       dependencies: ["GrxTest", "GrxTestsA"]),
